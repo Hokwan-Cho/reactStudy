@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class Control extends Component{
   render() {
-    console.log('Subject render');
+    console.log('Control render');
     return (
       <ul>
         <li><a href="/create" onClick ={function(e){ e.preventDefault(); this.props.onChangeMode('create')}.bind(this)}>create</a></li>
